@@ -2,6 +2,8 @@ package com.java.samples.arithmetic;
 
 import java.util.Scanner;
 
+import com.java.samples.Arithmetic;
+
 public class ArithmeticFloat {
 
 	public static void main(String[] args) {

@@ -34,7 +34,11 @@ public class ClassObjectDemo {
 		y = s.nextInt();
 		Addition a = new Addition();
 		int c = a.add(x, y);
-		System.out.println("Addtion=" + c);
+		int c = a.add(x,y);
+		float d=a.add(12.3f, 34.5f);
+		int d1=a.add(x,y,z);
+		System.out.println("Addtion=" + c+"add with 3 values="+d1+"add with    float="+d);
+
 
 	
 
